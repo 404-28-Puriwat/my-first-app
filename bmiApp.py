@@ -1,4 +1,4 @@
- import streamlit as st
+import streamlit as st
 
  st.markdown("# :red[ คํานวณค่าดัชนีมวลกาย BMI]")
  st.write("กรอกข้อมูลนํ้าหนักและส่วนสูงของคุณ เพื่อเช็กสุขภาพเบื้องต้น")
