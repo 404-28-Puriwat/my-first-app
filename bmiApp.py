@@ -11,8 +11,8 @@ if st.button("คำนวณค่า BMI") :
     height_m = height_cm / 100
     bmi = weight / (height_m ** 2)
 
- st.write("---")
- st.headar(F"ค่า BMI ของคุณคือ: **{bmi:.2f}**")
+    st.write("---")
+    st.headar(F"ค่า BMI ของคุณคือ: **{bmi:.2f}**")
 
 if bmi < 18.5:
    st.warning(" คุณมีนํ้าหนักน้อยกว่าเกณฑ์ (ผอม)")
@@ -24,4 +24,4 @@ else:
    st.error(" คุณคุณอยู๋ในเกณฑ์อ้วน ควรระวังเรื่องสุขภาพและออกกํษลังกาย")
 
 st.divider()
-st.write("นายภูริวัฒน์ สุทัศนรักษ์ เลขที่28 ม.4/4
+st.write("นายภูริวัฒน์ สุทัศนรักษ์ เลขที่28 ม.4/4")
