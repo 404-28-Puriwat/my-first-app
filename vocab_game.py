@@ -27,8 +27,10 @@ def show_result_dialog(ans1, ans2):
 if u_ans1 == "apple":
     print("Correct!")
     print("Wrong!")
-       st.success("✅ ข้อ 1: ถูกต้อง")
-       score += 1
+       if u_ans1 == "apple":
+    st.success("✅ ข้อ 1: ถูกต้อง")
+else:
+    st.error("❌ ข้อ 1: ไม่ถูกต้อง")
     else:
         st.error(f"❌ ข้อ 1: ยังไม่ถูกต้อง (คุณตอบ '{u_ans1}')")
   # ตรวจข้อ 2
